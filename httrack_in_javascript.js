@@ -1,8 +1,8 @@
-// Scheme:
-// ("Program path" "URL" "storage folder" "mirror depth")
-// "-O" = set storage folder
-// storage folder =   "." = folder of the script + "/YourFolder"
-// "--depth=X" = set mirrot depth
+// Instruction
+/* Scheme: ("Program path" "URL" "storage folder" "mirror depth")
+ * "-O" => define storage folder, e.g. = "./YourFolder" => "." folder of the script + "Name of your Folder"
+ * "--depth=X" = set mirrot depth
+*/
 
 function runHTTrack (){
   WshShell = new ActiveXObject("Wscript.Shell");
